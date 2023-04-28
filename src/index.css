@@ -11,3 +11,25 @@
 body {
   margin: 0;
 }
+* {
+  --cod-gray: #1e1e1e;
+  --pizza: #bc8415;
+  --white: #ffffff;
+  --cod-gray2: #121212;
+  box-sizing: border-box;
+}
+.css-vm4eco-MuiDataGrid-root .MuiDataGrid-withBorderColor {
+  border-color: var(--cod-gray) !important;
+}
+.css-17pfoub-MuiDataGrid-root .MuiDataGrid-withBorderColor {
+  border-color: var(--pizza) !important;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+  color: var(--white) !important;
+}
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root {
+  color: var(--white) !important;
+}
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+  color: rgb(255, 255, 255, 0.5) !important;
+}
